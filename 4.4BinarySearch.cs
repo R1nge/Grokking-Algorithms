@@ -1,6 +1,6 @@
 static int BinarySearch(int[] array, int number, int start, int end, int index = 0)
 {
-		if(index != number && index == start && index == end)
+		if(array[index] != number && index == start && index == end)
 			return -1;
 		
 		index = (start + end) / 2;
